@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\bin\Debug\netcoreapp2.1\CuriosityApplication.deps.json
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\bin\Debug\netcoreapp2.1\CuriosityApplication.runtimeconfig.json
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\bin\Debug\netcoreapp2.1\CuriosityApplication.runtimeconfig.dev.json
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\bin\Debug\netcoreapp2.1\CuriosityApplication.dll
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\bin\Debug\netcoreapp2.1\CuriosityApplication.pdb
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\obj\Debug\netcoreapp2.1\CuriosityApplication.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\obj\Debug\netcoreapp2.1\CuriosityApplication.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\obj\Debug\netcoreapp2.1\CuriosityApplication.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\obj\Debug\netcoreapp2.1\CuriosityApplication.AssemblyInfo.cs
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\obj\Debug\netcoreapp2.1\CuriosityApplication.dll
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\obj\Debug\netcoreapp2.1\CuriosityApplication.pdb
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\bin\Debug\netcoreapp2.1\Files\FailedLoggin.txt
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\bin\Debug\netcoreapp2.1\Files\FailedMovments.txt
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\bin\Debug\netcoreapp2.1\Files\SuccessMovments.txt
+C:\Users\Student\source\repos\CuriosityApplication\CuriosityApplication\bin\Debug\netcoreapp2.1\Files\AllCommands.txt
