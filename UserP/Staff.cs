@@ -191,7 +191,7 @@ namespace CuriosityApplication
         public string GetOrientation(Explorer explorer)
         {
 
-            return explorer._Orientation;
+            return "Explorer current orientation is " + explorer._Orientation;
             
         }
 
