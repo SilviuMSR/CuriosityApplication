@@ -100,7 +100,7 @@ namespace CuriosityApplication
 
 
             /* First get orientation type */
-            if (GetOrientation(explorer) == "n")
+            if (GetOrientation(explorer).Equals("n"))
             {
                 /* If position where we want to move the explorer is ok with the orientation.*/
                 if (y == explorer._InitialY && (x == explorer._InitialX - 1))
@@ -123,7 +123,7 @@ namespace CuriosityApplication
                     explorer.ExplorerDisplayCurrentPosition(planet.Map(), Width, Height);
                 }
             }
-            else if (GetOrientation(explorer) == "s")
+            else if (GetOrientation(explorer).Equals("s"))
             {
                 if (y == explorer._InitialY && (x == explorer._InitialX + 1))
                 {
@@ -142,7 +142,7 @@ namespace CuriosityApplication
                     explorer.ExplorerDisplayCurrentPosition(planet.Map(), Width, Height);
                 }
             }
-            else if (GetOrientation(explorer) == "e")
+            else if (GetOrientation(explorer).Equals("e"))
             {
                 if (x == explorer._InitialX && (y == explorer._InitialY + 1))
                 {
@@ -161,7 +161,7 @@ namespace CuriosityApplication
                     explorer.ExplorerDisplayCurrentPosition(planet.Map(), Width, Height);
                 }
             }
-            else if (GetOrientation(explorer) == "w")
+            else if (GetOrientation(explorer).Equals("w"))
             {
                 if (x == explorer._InitialX && (y == explorer._InitialY - 1))
                 {

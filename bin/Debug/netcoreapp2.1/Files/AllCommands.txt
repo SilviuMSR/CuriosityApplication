@@ -26,3 +26,17 @@ Cristi Success movment from 3 to 2 at Mars made by Curiosity with w orientation
 
 Silviu Success movment from 3 to 3 at Mars made by Curiosity with s orientation
 
+Pitic Success movment from 3 to 3 at Mars made by Curiosity with s orientation
+
+Pitic Success movment from 4 to 3 at Mars made by Curiosity with s orientation
+
+Pitic Success movment from 5 to 3 at Mars made by Curiosity with s orientation
+
+Pitic Success movment from 5 to 4 at Mars made by Curiosity with e orientation
+
+Pitic Success movment from 5 to 5 at Mars made by Curiosity with e orientation
+
+Pitic Wrong movment from 8 to 5 at Mars made by Curiosity with w orientation
+
+Pitic Wrong movment from 9 to 3 at Mars made by Curiosity with w orientation
+
