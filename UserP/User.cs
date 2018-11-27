@@ -1,4 +1,7 @@
-﻿using System;
+﻿using CuriosityApplication.ExplorerP;
+using CuriosityApplication.PlanetPacket;
+using CuriosityApplication.UserP;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -15,6 +18,5 @@ namespace CuriosityApplication
             _Username = Username;
             _Password = Password;
         }
-
     }
 }

@@ -97,8 +97,10 @@ namespace CuriosityApplication
             Width = MapWidth and Height = MapHeight*/
         public void MovePosititon(int x, int y, Planet planet, Explorer explorer, string user, int Width, int Height)
         {
+
+
             /* First get orientation type */
-            if (GetOrientation(explorer).Equals("n"))
+            if (GetOrientation(explorer) == "n")
             {
                 /* If position where we want to move the explorer is ok with the orientation.*/
                 if (y == explorer._InitialY && (x == explorer._InitialX - 1))
@@ -110,6 +112,7 @@ namespace CuriosityApplication
                     /* Write to file as success movment */
                     WriteToFile(x, y, explorer, planet, "SuccessMovments.txt", user);
                     WriteToFile(x, y, explorer, planet, "AllComands.txt", user);
+                    Console.WriteLine("Success movment");
                 }
                 else
                 {
@@ -120,7 +123,7 @@ namespace CuriosityApplication
                     explorer.ExplorerDisplayCurrentPosition(planet.Map(), Width, Height);
                 }
             }
-            else if (GetOrientation(explorer).Equals("s"))
+            else if (GetOrientation(explorer) == "s")
             {
                 if (y == explorer._InitialY && (x == explorer._InitialX + 1))
                 {
@@ -129,6 +132,7 @@ namespace CuriosityApplication
 
                     WriteToFile(x, y, explorer, planet, "SuccessMovments.txt", user);
                     WriteToFile(x, y, explorer, planet, "AllComands.txt", user);
+                    Console.WriteLine("Success movment");
                 }
                 else
                 {
@@ -138,7 +142,7 @@ namespace CuriosityApplication
                     explorer.ExplorerDisplayCurrentPosition(planet.Map(), Width, Height);
                 }
             }
-            else if (GetOrientation(explorer).Equals("e"))
+            else if (GetOrientation(explorer) == "e")
             {
                 if (x == explorer._InitialX && (y == explorer._InitialY + 1))
                 {
@@ -147,6 +151,7 @@ namespace CuriosityApplication
 
                     WriteToFile(x, y, explorer, planet, "SuccessMovments.txt", user);
                     WriteToFile(x, y, explorer, planet, "AllComands.txt", user);
+                    Console.WriteLine("Success movment");
                 }
                 else
                 {
@@ -156,7 +161,7 @@ namespace CuriosityApplication
                     explorer.ExplorerDisplayCurrentPosition(planet.Map(), Width, Height);
                 }
             }
-            else if (GetOrientation(explorer).Equals("w"))
+            else if (GetOrientation(explorer) == "w")
             {
                 if (x == explorer._InitialX && (y == explorer._InitialY - 1))
                 {
@@ -165,6 +170,7 @@ namespace CuriosityApplication
 
                     WriteToFile(x, y, explorer, planet, "SuccessMovments.txt", user);
                     WriteToFile(x, y, explorer, planet, "AllComands.txt", user);
+                    Console.WriteLine("Success movment");
                 }
                 else
                 {
@@ -173,6 +179,10 @@ namespace CuriosityApplication
                     WriteToFile(x, y, explorer, planet, "AllComands.txt", user);
                     explorer.ExplorerDisplayCurrentPosition(planet.Map(), Width, Height);
                 }
+            }
+            else
+            {
+                Console.WriteLine("Invalid orientation");
             }
             
         }
@@ -191,7 +201,7 @@ namespace CuriosityApplication
         public string GetOrientation(Explorer explorer)
         {
 
-            return "Explorer current orientation is " + explorer._Orientation;
+            return explorer._Orientation;
             
         }
 
